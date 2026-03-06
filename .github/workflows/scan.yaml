@@ -5,7 +5,7 @@ name: Print Scout
 on:
   workflow_dispatch:
     inputs:
-          docker_image: 'ghcr.io/ganemaker201/print:vulnerable'
+        docker_image:
           description: ''
           required: true
           default: 'ghcr.io/ganemaker201/print:vulnerable'
