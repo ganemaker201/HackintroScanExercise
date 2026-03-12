@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'ghcr.io/ganemaker201/HackintroScanExercise:latest'
+          default: 'ghcr.io/ganemaker201/hackintro_scan_exercise:latest'
 
 env:
   REGISTRY: ghcr.io
